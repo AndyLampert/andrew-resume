@@ -6,3 +6,17 @@
 .profile-pic {
 	border-radius: 50%;
 }
+
+.institution-image {
+	width: 150px;
+}
+
+.entry-container {
+	border: 1px solid black;
+}
+
+.skills-container {
+	height: 800px;
+	/*width: 100%;*/
+	border: 1px solid black;
+}
