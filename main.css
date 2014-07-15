@@ -46,7 +46,11 @@ body {
 }
 
 .single-entry span {
-	float: right;
+	/*float: right;*/
+}
+
+.institution-desc {
+	/*float: left;*/
 }
 
 .institution-img {
