@@ -31,6 +31,42 @@ body {
 	text-align: center;
 }
 
+.legend-container {
+	border: 1px solid lightgrey;
+	margin-top: 26px;
+	position: relative;
+	height: 60px;
+	width: 302px;
+}
+
+.legend-container h3 {
+	margin-top: 0;
+}
+
+.color-key {
+	color: white;
+	position: absolute;
+	bottom: -1px;
+	width: 300px;
+	padding: 0;
+}
+
+.color-key div {
+	width: 100px;
+}
+
+.career-key {
+	background-color: red;
+}
+
+.edu-key {
+	background-color: blue;
+}
+
+.vol-key {
+	background-color: green;
+}
+
 .profile-pic {
 	border-radius: 50%;
 	height: 122px;
@@ -57,6 +93,19 @@ body {
 .single-entry {
 	border-bottom: 1px solid lightgrey;
 	margin: 10px 0;
+	padding-left: 10px;
+}
+
+.career-entry {
+	border-left: 5px solid red;
+}
+
+.edu-entry {
+	border-left: 5px solid blue;
+}
+
+.volunteer-entry {
+	border-left: 5px solid green;
 }
 
 .single-entry:last-of-type {
@@ -71,13 +120,16 @@ body {
 }
 
 .institution-img {
-	margin: 0 10px 30px 10px;
+	margin: 0 10px 10px 10px;
 	float: right;
+	position: relative;
 }
 
 .attended-date {
 	float: right;
 	margin-right: 10px;
+	color: grey;
+	font-size: .9em;
 }
 
 .skills-container li {
@@ -89,9 +141,25 @@ body {
 	border-bottom: 1px solid lightgrey;
 }
 
+.tech-skills-list,
+.language-skills-list {
+	margin: 16px 0 0 20px;
+}
+
 .wifi-level-img {
 	margin-left: -40px;
 	float: left;
 	height: 20px;
 }
 
+/*resizing some images with ID's*/
+#hattori-img {
+	width: 80px;
+	height: 80px;
+	margin-bottom: 10px;
+}
+
+#waseda-img {
+	width: 100px;
+	height: 100px;
+}
