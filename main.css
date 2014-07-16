@@ -2,24 +2,38 @@
 	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 
+html {
+	border-top: 5px solid black;
+}
+
 body {
 	width: 900px;
 	margin: 0 auto;
 }
 
 .resume-header {
-	border: 1px solid blue;
 	margin: 20px 0;
+	border-bottom: 1px solid lightgrey
+}
+
+.contact-details-list {
+	list-style-type: none;
 }
 
 .main-title {
-	font-family: 700, Lato, sans-serif;
+	/*font-family: 700, Lato, sans-serif;*/
+	/*font-size: 30px;*/
 	text-transform: uppercase;
+	text-align: center;
+	font: 700 23px/1.4782608695 Lato, sans-serif;
+	letter-spacing: 0.05em;
+	margin: 0;
 	text-align: center;
 }
 
 .profile-pic {
 	border-radius: 50%;
+	height: 122px;
 }
 
 .institution-img {
@@ -27,24 +41,27 @@ body {
 }
 
 .entry-container {
-	border: 1px solid black;
+	margin-bottom: 40px;
+	padding: 0 20px;
 }
 
 .skills-container {
 	height: 800px;
-	/*width: 100%;*/
-	border: 1px solid black;
+	padding: 0 20px;
 }
-
 
 .entry-institution-name {
 	display: inline;
 }
 
 .single-entry {
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid lightgrey;
+	margin: 10px 0;
 }
 
+.single-entry:last-of-type {
+	border-bottom: none;
+}
 .single-entry span {
 	/*float: right;*/
 }
@@ -54,8 +71,13 @@ body {
 }
 
 .institution-img {
-	margin-bottom: 30px;
+	margin: 0 10px 30px 10px;
 	float: right;
+}
+
+.attended-date {
+	float: right;
+	margin-right: 10px;
 }
 
 .skills-container li {
@@ -63,8 +85,13 @@ body {
 	margin: 6px 0;
 }
 
+.tech-skills-section {
+	border-bottom: 1px solid lightgrey;
+}
+
 .wifi-level-img {
 	margin-left: -40px;
 	float: left;
 	height: 20px;
 }
+
