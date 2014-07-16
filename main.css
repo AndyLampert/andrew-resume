@@ -27,7 +27,7 @@ body {
 	text-align: center;
 	font: 700 23px/1.4782608695 Lato, sans-serif;
 	letter-spacing: 0.05em;
-	margin: 0;
+	margin: 10px 0;
 	text-align: center;
 }
 
@@ -52,11 +52,20 @@ body {
 }
 
 .color-key div {
+	text-align: center;
 	width: 100px;
 }
 
 .career-key {
 	background-color: red;
+}
+
+.institution-type-in-entry {
+	color: white;
+	position: absolute;
+	right: 10px;
+	text-align: center;
+	width: 150px;
 }
 
 .edu-key {
@@ -78,6 +87,7 @@ body {
 
 .entry-container {
 	margin-bottom: 40px;
+	border: 1px solid black;
 	padding: 0 20px;
 }
 
@@ -94,6 +104,7 @@ body {
 	border-bottom: 1px solid lightgrey;
 	margin: 10px 0;
 	padding-left: 10px;
+	position: relative;
 }
 
 .career-entry {
@@ -116,6 +127,7 @@ body {
 }
 
 .institution-desc {
+	font-size: .9em;
 	/*float: left;*/
 }
 
@@ -157,9 +169,12 @@ body {
 	width: 80px;
 	height: 80px;
 	margin-bottom: 10px;
+	bottom: 20px;
 }
 
 #waseda-img {
-	width: 100px;
+	bottom: 10px;
 	height: 100px;
+	margin-bottom: 0px;
+	width: 100px;
 }
