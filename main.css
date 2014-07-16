@@ -176,5 +176,11 @@ body {
 	bottom: 10px;
 	height: 100px;
 	margin-bottom: 0px;
+	right: 26px;
 	width: 100px;
+}
+
+#regionup-img {
+	margin-right: -14px;
+	margin-left: -10px;
 }
