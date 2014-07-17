@@ -40,12 +40,10 @@ span, p, ul, li, div {
 }
 
 .main-title {
-  /*font-family: 700, Lato, sans-serif;*/
-  /*font-size: 30px;*/
   display: inline-block;
   text-transform: uppercase;
   text-align: center;
-  font: 700 23px/1.4782608695 Lato, sans-serif;
+  font: 700 28px Lato, sans-serif;
   letter-spacing: 0.05em;
   margin: 10px 0;
   text-align: center;
@@ -238,7 +236,7 @@ footer {
 
 #regionup-img {
   margin-right: -2px;
-  margin-left: -10px;
+  margin-left: 0;
   width: 80px;
 }
 
