@@ -13,7 +13,7 @@ body {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, .andrew-status {
   font-family: Lato, sans-serif;
   font-weight: 700;
 }
@@ -27,6 +27,10 @@ span, p, ul, li, div {
   border-bottom: 1px solid lightgray;
 }
 
+.resume-catch-copy {
+  margin-left: 20px;
+}
+
 .copy-item {
   margin-top: 30px;
 }
@@ -38,6 +42,7 @@ span, p, ul, li, div {
 .main-title {
   /*font-family: 700, Lato, sans-serif;*/
   /*font-size: 30px;*/
+  display: inline-block;
   text-transform: uppercase;
   text-align: center;
   font: 700 23px/1.4782608695 Lato, sans-serif;
@@ -72,7 +77,7 @@ span, p, ul, li, div {
 }
 
 .career-key {
-  background-color: #ec6000;
+  background-color: rgba(236, 96, 0, 0.9);
 }
 
 .institution-type-in-entry {
@@ -86,11 +91,11 @@ span, p, ul, li, div {
 }
 
 .edu-key {
-  background-color: #06662a;
+  background-color: rgba(6, 102, 42, 0.9);
 }
 
 .vol-key {
-  background-color: #01a5e4;
+  background-color: rgba(1, 165, 228, 0.9);
 }
 
 .profile-pic {
@@ -111,6 +116,13 @@ span, p, ul, li, div {
 
 .entry-institution-name {
   display: inline;
+}
+
+.institution-name-link {
+  color: #333;
+}
+.institution-name-link:hover {
+  color: #595959;
 }
 
 .entry-self-title {
@@ -135,15 +147,15 @@ span, p, ul, li, div {
 }
 
 .career-entry {
-  border-left: 3px solid #ec6000;
+  border-left: 3px solid rgba(236, 96, 0, 0.9);
 }
 
 .edu-entry {
-  border-left: 3px solid #06662a;
+  border-left: 3px solid rgba(6, 102, 42, 0.9);
 }
 
 .volunteer-entry {
-  border-left: 3px solid #01a5e4;
+  border-left: 3px solid rgba(1, 165, 228, 0.9);
 }
 
 .single-entry:last-of-type {
@@ -195,6 +207,15 @@ span, p, ul, li, div {
   height: 16px;
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: 2px solid black;
+  background-color: lightgrey;
+}
+
 #hattori-img {
   width: 80px;
   height: 80px;
@@ -207,7 +228,7 @@ span, p, ul, li, div {
   height: 100px;
   margin-bottom: 0px;
   margin-left: 20px;
-  right: 30px;
+  right: 25px;
   width: 100px;
 }
 

@@ -3,9 +3,9 @@ $lato: Lato, sans-serif;
 $sourcePro: 'Source Sans Pro', sans-serif; 
 
 // colors
-$career-color: #EC6000;
-$vol-color: #01A5E4;
-$edu-color: #06662A;
+$career-color: rgba(236,96,0,.9);
+$vol-color: rgba(1,165,228,.9);
+$edu-color: rgba(6,102,42,.9);
 
 *, *:before, *:after {
 	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
@@ -20,9 +20,13 @@ body {
 	margin: 0 auto;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, .andrew-status {
 	font-family: $lato;
 	font-weight: 700;
+}
+
+.andrew-status {
+	// color: $career-color;
 }
 
 span, p, ul, li, div {
@@ -34,8 +38,16 @@ span, p, ul, li, div {
 	border-bottom: 1px solid lightgrey
 }
 
+.resume-catch-copy {
+	margin-left: 20px;
+}
+
 .copy-item {
 	margin-top: 30px;
+}
+
+.contact-details-container {
+
 }
 
 .contact-details-list {
@@ -45,6 +57,7 @@ span, p, ul, li, div {
 .main-title {
 	/*font-family: 700, Lato, sans-serif;*/
 	/*font-size: 30px;*/
+	display: inline-block;
 	text-transform: uppercase;
 	text-align: center;
 	font: 700 23px/1.4782608695 Lato, sans-serif;
@@ -118,6 +131,13 @@ span, p, ul, li, div {
 
 .entry-institution-name {
 	display: inline;
+}
+
+.institution-name-link {
+	color: #333;
+	&:hover {
+		color: lighten(#333, 15%);
+	}
 }
 
 .entry-self-title {
@@ -203,6 +223,18 @@ span, p, ul, li, div {
 	height: 16px;
 }
 
+footer {
+	// display: block;
+	// margin: 0 auto;
+	position: absolute;
+	bottom: 0;
+	// width: 100%;
+	left: 0;
+	right: 0;
+	border-top: 2px solid black;
+	background-color: lightgrey;
+}
+
 // resizing some images with ID's
 #hattori-img {
 	width: 80px;
@@ -216,7 +248,7 @@ span, p, ul, li, div {
 	height: 100px;
 	margin-bottom: 0px;
 	margin-left: 20px;
-	right: 30px;
+	right: 25px;
 	width: 100px;
 }
 
