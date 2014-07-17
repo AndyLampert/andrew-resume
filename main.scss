@@ -3,9 +3,9 @@ $lato: Lato, sans-serif;
 $sourcePro: 'Source Sans Pro', sans-serif; 
 
 // colors
-$darkBlue: #2C3E50;
-$lightBlue: #3498DB;
-$green: #2D5027;
+$career-color: #EC6000;
+$vol-color: #01A5E4;
+$edu-color: #06662A;
 
 *, *:before, *:after {
 	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
@@ -32,6 +32,10 @@ span, p, ul, li, div {
 .resume-header {
 	margin: 20px 0;
 	border-bottom: 1px solid lightgrey
+}
+
+.copy-item {
+	margin-top: 30px;
 }
 
 .contact-details-list {
@@ -75,33 +79,30 @@ span, p, ul, li, div {
 }
 
 .career-key {
-	background-color: $green;
+	background-color: $career-color;
 }
 
 .institution-type-in-entry {
+	border: 1px solid black;
 	color: white;
 	position: absolute;
 	letter-spacing: 2px;
 	right: 10px;
 	text-align: center;
-	width: 150px;
+	width: 150px; 
 }
 
 .edu-key {
-	background-color: $darkBlue;
+	background-color: $edu-color;
 }
 
 .vol-key {
-	background-color: $lightBlue;
+	background-color: $vol-color;
 }
 
 .profile-pic {
 	border-radius: 50%;
 	height: 122px;
-}
-
-.institution-img {
-	width: 150px;
 }
 
 .entry-container {
@@ -125,6 +126,14 @@ span, p, ul, li, div {
 	margin-top: 4px;
 }
 
+.entry-sub-list-header {
+	margin-top: 10px;
+}
+
+.entry-sub-list {
+	margin-top: -6px;
+}
+
 .single-entry {
 	/*border-bottom: 1px solid lightgrey;*/
 	margin: 10px 0 30px 0;
@@ -133,15 +142,15 @@ span, p, ul, li, div {
 }
 
 .career-entry {
-	border-left: 3px solid $green;
+	border-left: 3px solid $career-color;
 }
 
 .edu-entry {
-	border-left: 3px solid $darkBlue;
+	border-left: 3px solid $edu-color;
 }
 
 .volunteer-entry {
-	border-left: 3px solid $lightBlue;
+	border-left: 3px solid $vol-color;
 }
 
 .single-entry:last-of-type {
@@ -157,14 +166,16 @@ span, p, ul, li, div {
 }
 
 .institution-img {
-	margin: 0 10px 10px 10px;
+	margin: 6px 10px 10px 10px;
 	float: right;
 	position: relative;
+	width: 150px;
 }
 
 .attended-date {
 	float: right;
 	margin-right: 10px;
+	margin-top: 4px;
 	color: grey;
 	font-size: .9em;
 }
@@ -175,7 +186,9 @@ span, p, ul, li, div {
 }
 
 .tech-skills-section {
-	border-bottom: 1px solid lightgrey;
+	&:first-child {
+		margin-top: -10px;
+	}
 }
 
 .tech-skills-list,
@@ -184,12 +197,13 @@ span, p, ul, li, div {
 }
 
 .wifi-level-img {
-	margin-left: -40px;
+	margin-left: -33px;
+	margin-top: 3px;
 	float: left;
-	height: 20px;
+	height: 16px;
 }
 
-/*resizing some images with ID's*/
+// resizing some images with ID's
 #hattori-img {
 	width: 80px;
 	height: 80px;
@@ -198,20 +212,26 @@ span, p, ul, li, div {
 }
 
 #waseda-img {
-	bottom: 10px;
+	bottom: 0;
 	height: 100px;
 	margin-bottom: 0px;
+	margin-left: 20px;
 	right: 26px;
 	width: 100px;
 }
 
+#bizreach-img {
+	margin-top: 10px;
+}
+
 #regionup-img {
-	margin-right: -14px;
+	margin-right: -2px;
 	margin-left: -10px;
+	width: 80px;
 }
 
 #mizzou-img {
-	height: 80px;
-	right: 23px;
-	width: 80px;
+	height: 100px;
+	right: 28px;
+	width: 100px;
 }

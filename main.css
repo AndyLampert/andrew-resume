@@ -27,6 +27,10 @@ span, p, ul, li, div {
   border-bottom: 1px solid lightgray;
 }
 
+.copy-item {
+  margin-top: 30px;
+}
+
 .contact-details-list {
   list-style-type: none;
 }
@@ -68,10 +72,11 @@ span, p, ul, li, div {
 }
 
 .career-key {
-  background-color: #2d5027;
+  background-color: #ec6000;
 }
 
 .institution-type-in-entry {
+  border: 1px solid black;
   color: white;
   position: absolute;
   letter-spacing: 2px;
@@ -81,20 +86,16 @@ span, p, ul, li, div {
 }
 
 .edu-key {
-  background-color: #2c3e50;
+  background-color: #06662a;
 }
 
 .vol-key {
-  background-color: #3498db;
+  background-color: #01a5e4;
 }
 
 .profile-pic {
   border-radius: 50%;
   height: 122px;
-}
-
-.institution-img {
-  width: 150px;
 }
 
 .entry-container {
@@ -118,6 +119,14 @@ span, p, ul, li, div {
   margin-top: 4px;
 }
 
+.entry-sub-list-header {
+  margin-top: 10px;
+}
+
+.entry-sub-list {
+  margin-top: -6px;
+}
+
 .single-entry {
   /*border-bottom: 1px solid lightgrey;*/
   margin: 10px 0 30px 0;
@@ -126,15 +135,15 @@ span, p, ul, li, div {
 }
 
 .career-entry {
-  border-left: 3px solid #2d5027;
+  border-left: 3px solid #ec6000;
 }
 
 .edu-entry {
-  border-left: 3px solid #2c3e50;
+  border-left: 3px solid #06662a;
 }
 
 .volunteer-entry {
-  border-left: 3px solid #3498db;
+  border-left: 3px solid #01a5e4;
 }
 
 .single-entry:last-of-type {
@@ -151,14 +160,16 @@ span, p, ul, li, div {
 }
 
 .institution-img {
-  margin: 0 10px 10px 10px;
+  margin: 6px 10px 10px 10px;
   float: right;
   position: relative;
+  width: 150px;
 }
 
 .attended-date {
   float: right;
   margin-right: 10px;
+  margin-top: 4px;
   color: grey;
   font-size: .9em;
 }
@@ -168,8 +179,8 @@ span, p, ul, li, div {
   margin: 6px 0;
 }
 
-.tech-skills-section {
-  border-bottom: 1px solid lightgrey;
+.tech-skills-section:first-child {
+  margin-top: -10px;
 }
 
 .tech-skills-list,
@@ -178,12 +189,12 @@ span, p, ul, li, div {
 }
 
 .wifi-level-img {
-  margin-left: -40px;
+  margin-left: -33px;
+  margin-top: 3px;
   float: left;
-  height: 20px;
+  height: 16px;
 }
 
-/*resizing some images with ID's*/
 #hattori-img {
   width: 80px;
   height: 80px;
@@ -192,20 +203,26 @@ span, p, ul, li, div {
 }
 
 #waseda-img {
-  bottom: 10px;
+  bottom: 0;
   height: 100px;
   margin-bottom: 0px;
+  margin-left: 20px;
   right: 26px;
   width: 100px;
 }
 
+#bizreach-img {
+  margin-top: 10px;
+}
+
 #regionup-img {
-  margin-right: -14px;
+  margin-right: -2px;
   margin-left: -10px;
+  width: 80px;
 }
 
 #mizzou-img {
-  height: 80px;
-  right: 23px;
-  width: 80px;
+  height: 100px;
+  right: 28px;
+  width: 100px;
 }
