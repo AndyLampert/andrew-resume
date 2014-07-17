@@ -1,186 +1,211 @@
 *, *:before, *:after {
-	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-	border-top: 5px solid black;
+  border-top: 5px solid black;
 }
 
 body {
-	width: 900px;
-	margin: 0 auto;
+  width: 900px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+}
+
+span, p, ul, li, div {
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .resume-header {
-	margin: 20px 0;
-	border-bottom: 1px solid lightgrey
+  margin: 20px 0;
+  border-bottom: 1px solid lightgray;
 }
 
 .contact-details-list {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 .main-title {
-	/*font-family: 700, Lato, sans-serif;*/
-	/*font-size: 30px;*/
-	text-transform: uppercase;
-	text-align: center;
-	font: 700 23px/1.4782608695 Lato, sans-serif;
-	letter-spacing: 0.05em;
-	margin: 10px 0;
-	text-align: center;
+  /*font-family: 700, Lato, sans-serif;*/
+  /*font-size: 30px;*/
+  text-transform: uppercase;
+  text-align: center;
+  font: 700 23px/1.4782608695 Lato, sans-serif;
+  letter-spacing: 0.05em;
+  margin: 10px 0;
+  text-align: center;
 }
 
 .legend-container {
-	border: 1px solid lightgrey;
-	margin-top: 26px;
-	position: relative;
-	height: 60px;
-	width: 302px;
+  border: 1px solid lightgrey;
+  margin-top: 26px;
+  position: relative;
+  height: 60px;
+  width: 302px;
 }
 
 .legend-container h3 {
-	margin-top: 0;
+  margin-top: 0;
 }
 
 .color-key {
-	color: white;
-	position: absolute;
-	bottom: -1px;
-	width: 300px;
-	padding: 0;
+  color: white;
+  position: absolute;
+  bottom: -1px;
+  width: 300px;
+  padding: 0;
 }
 
 .color-key div {
-	text-align: center;
-	width: 100px;
+  text-align: center;
+  width: 100px;
 }
 
 .career-key {
-	background-color: red;
+  background-color: #2d5027;
 }
 
 .institution-type-in-entry {
-	color: white;
-	position: absolute;
-	right: 10px;
-	text-align: center;
-	width: 150px;
+  color: white;
+  position: absolute;
+  letter-spacing: 2px;
+  right: 10px;
+  text-align: center;
+  width: 150px;
 }
 
 .edu-key {
-	background-color: blue;
+  background-color: #2c3e50;
 }
 
 .vol-key {
-	background-color: green;
+  background-color: #3498db;
 }
 
 .profile-pic {
-	border-radius: 50%;
-	height: 122px;
+  border-radius: 50%;
+  height: 122px;
 }
 
 .institution-img {
-	width: 150px;
+  width: 150px;
 }
 
 .entry-container {
-	margin-bottom: 40px;
-	border: 1px solid black;
-	padding: 0 20px;
+  margin-bottom: 40px;
+  /*border: 1px solid black;*/
+  padding: 0 20px;
 }
 
 .skills-container {
-	height: 800px;
-	padding: 0 20px;
+  height: 800px;
+  padding: 0 20px;
 }
 
 .entry-institution-name {
-	display: inline;
+  display: inline;
+}
+
+.entry-self-title {
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-top: 4px;
 }
 
 .single-entry {
-	border-bottom: 1px solid lightgrey;
-	margin: 10px 0;
-	padding-left: 10px;
-	position: relative;
+  /*border-bottom: 1px solid lightgrey;*/
+  margin: 10px 0 30px 0;
+  padding-left: 10px;
+  position: relative;
 }
 
 .career-entry {
-	border-left: 5px solid red;
+  border-left: 3px solid #2d5027;
 }
 
 .edu-entry {
-	border-left: 5px solid blue;
+  border-left: 3px solid #2c3e50;
 }
 
 .volunteer-entry {
-	border-left: 5px solid green;
+  border-left: 3px solid #3498db;
 }
 
 .single-entry:last-of-type {
-	border-bottom: none;
+  border-bottom: none;
 }
+
 .single-entry span {
-	/*float: right;*/
+  /*float: right;*/
 }
 
 .institution-desc {
-	font-size: .9em;
-	/*float: left;*/
+  font-size: .9em;
+  /*float: left;*/
 }
 
 .institution-img {
-	margin: 0 10px 10px 10px;
-	float: right;
-	position: relative;
+  margin: 0 10px 10px 10px;
+  float: right;
+  position: relative;
 }
 
 .attended-date {
-	float: right;
-	margin-right: 10px;
-	color: grey;
-	font-size: .9em;
+  float: right;
+  margin-right: 10px;
+  color: grey;
+  font-size: .9em;
 }
 
 .skills-container li {
-	list-style-type: none;
-	margin: 6px 0;
+  list-style-type: none;
+  margin: 6px 0;
 }
 
 .tech-skills-section {
-	border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
 }
 
 .tech-skills-list,
 .language-skills-list {
-	margin: 16px 0 0 20px;
+  margin: 16px 0 0 20px;
 }
 
 .wifi-level-img {
-	margin-left: -40px;
-	float: left;
-	height: 20px;
+  margin-left: -40px;
+  float: left;
+  height: 20px;
 }
 
 /*resizing some images with ID's*/
 #hattori-img {
-	width: 80px;
-	height: 80px;
-	margin-bottom: 10px;
-	bottom: 20px;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+  bottom: 20px;
 }
 
 #waseda-img {
-	bottom: 10px;
-	height: 100px;
-	margin-bottom: 0px;
-	right: 26px;
-	width: 100px;
+  bottom: 10px;
+  height: 100px;
+  margin-bottom: 0px;
+  right: 26px;
+  width: 100px;
 }
 
 #regionup-img {
-	margin-right: -14px;
-	margin-left: -10px;
+  margin-right: -14px;
+  margin-left: -10px;
+}
+
+#mizzou-img {
+  height: 80px;
+  right: 23px;
+  width: 80px;
 }
