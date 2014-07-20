@@ -23,6 +23,11 @@ body {
 h1, h2, h3, h4, .andrew-status {
 	font-family: $lato;
 	font-weight: 700;
+	-webkit-font-smoothing: antialiased;
+}
+
+h3 {
+	font-size: 23px
 }
 
 .andrew-status {
@@ -264,4 +269,9 @@ footer {
 	height: 100px;
 	right: 28px;
 	width: 100px;
+}
+
+#human-img {
+	width: 50px;
+	margin-right: 60px;
 }
