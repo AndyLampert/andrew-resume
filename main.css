@@ -36,6 +36,18 @@ span, p, ul, li, div {
   margin-left: 20px;
 }
 
+.resume-catch-copy, .contact-details-list {
+  font-size: 18px;
+}
+
+.word-doc-link {
+  font-size: 16px;
+}
+
+.catch-copy {
+  margin-bottom: 32px;
+}
+
 .copy-item {
   margin-top: 30px;
 }
